@@ -9,7 +9,7 @@ interface User {
   ws: WebSocket,
   rooms: string[],
   userId: string
-}
+}                                
 
 const users: User[] = [];
 
